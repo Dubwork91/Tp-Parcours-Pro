@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+</head>
+<body> 
+    <ul>
+        <li><a href="acceuil.html">Acceuil</a> </li>
+        <li><a href="parcours.html">Parcours</a></li>
+    </ul>
+    <hr>
+<strong>Numéro de téléphone mobile:</strong> <a href="tel:+212.669.829.855" target="_blank"><img src="Mobile.png" alt="travail" width="80" height="50"></a>  <br>
+<Strong>Linkedin:</Strong> <a href="https://www.linkedin.com/in/adnane-fennir-6160a1a2/" target="_blank"> <img src="Link.png" alt="travail" width="60" height="30"></a> <br>
+<Strong>Adresse email:</Strong> <a href="mailto:adnane.fennir@gmail.com" target="_blank"> <img src="@.jpg" alt="travail" width="60" height="30"></a><br>
+<strong>Adresse postale:</strong> Inara 1 , Imm 'b' Apt N°8 <br>
+<hr>
+<strong>COPYRIGHT©2022</strong>
+<hr>
+<form action="contact.html">
+    <h2>Formulaire</h2>
+    <fieldset>
+        <legend>Information personnelle</legend>
+        <div>
+            <label id="fname">Nom:</label> <input type="text">
+        </div>
+        <div>
+            <label id="lname">Prénom:</label> <input type="text">
+        </div>
+        <div>
+            <label id="Datedenaissance">Date de naissance:</label><input type="date" max="2022-07-21" min="1920-07-21" name="the_date">
+        </div>
+        <div>
+            <label id="email">Adresse email: <input type="email" placeholder="adnane@example.com" id="email" name="email"></label>
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Autre</legend>
+        <div>
+            <label id="desc">Description:</label> <textarea name="Description" id="Description" cols="30" rows="10"></textarea>
+        </div>
+        <p>Sexe:</p> 
+        <div>
+            <input type="radio" id="Sexechoice"
+            name="sexe" value="email">
+           <label id="contactChoice1">Masculin</label>
+           <input type="radio" id="Sexechoice2"
+           name="sexe" value="email">
+          <label id="contactChoice1">Féminin</label>
+          <input type="radio" id="Sexechoice3"
+          name="sexe" value="email">
+         <label id="contactChoice1">Autre</label>
+        </div>
+        <div>
+            <label id="pass">Mot de passe:</label>
+            <input type="password" id="pass" name="pass"
+                   minlength="6" required>
+        </div>
+        <div>
+            <label id="Nombredenfants">Nombre d'enfants:</label>
+            <input type="number" name="enfants" id="enfants" min="0" max="9">
+        </div>
+        <div>
+            <label id="Possession">Possession:
+            <input type="checkbox" >Voiture 
+            <input type="checkbox" >Moto
+            <input type="checkbox" >Maison 
+        </div>
+        <div>
+          <label  id="choix>Comment vous nous avez connu:</label>
+            <select name=" choixid="choix" multiple="">
+            <option value="Facebook">Facebook</option>
+            <option value="Instagram">Instagram</option>
+            <option value="amis">Amis</option>
+            <option value="autres">Autres</option>
+        </div>
+    </fieldset>
+    <input type="submit" value="Enregistrer"> 
+    <input type="reset" value="Annuler">
+    <input type="text" name="" id="">
+</form>
+</body>
+</html>
+  
